@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Roboto:ital,wght@0,100;0,300;1,300&display=swap');
+
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+body{
+ margin-top:20px;
+ margin-right:100px;
+ margin-left:100px;
+/* font-family: 'Roboto', sans-serif; */
+background-image: url('./pexels-fwstudio-172294.jpg');
+background-position: center center;
+background-size: cover;
+background-repeat: no-repeat;
+color: black;
+}
+
+
+
+section{
+ margin-bottom: 30px;;
+}
+nav{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.contact{
+ display: flex;
+ width:100%;
+ justify-content: space-between;
+}
+.profile{
+text-align: justify;
+text-justify: inter-word;
+ line-height: 20px;
+ letter-spacing: normal;
+ margin-bottom: 30px;
+ margin-top: 30px;
+}
+.title{
+ text-decoration:underline;
+}
+.skills{
+ margin: auto auto;
+ display: flex;
+ width:600px;
+ flex-wrap: wrap;
+}
+
+.skills>*{
+ border: solid 1px black;
+ width:150px;
+ text-align: center;
+}
+
+.projects{
+ margin-top: 30px;
+}
+
+a{
+ text-decoration: none;
+ font-weight: bold;
+
+}
+a:hover{
+ color: red;
+}
+
+
+.info{
+ display: flex;
+ justify-content: space-between;
+ text-align: justify;
+ font-size: small;
+}
+.info>*{
+ width:300px;
+ font-weight: bold;
+}
+
+.workingExperience>*{
+ margin-bottom: 30px;
+}
+.school{
+ display: flex;
+ justify-content: space-between;
+}
+.school>*{
+ width:300px;
+}
+.activityInfo{
+ display: flex;
+ justify-content: space-between;
+}
+.otherActivity{
+ margin-top: 30px;
+}
+.award{
+ display: flex;
+ justify-content: space-between;
+}
+.award>*{
+ width:300px;
+}
+footer{
+ text-align: center;
+}
