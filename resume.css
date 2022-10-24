@@ -73,12 +73,12 @@ a:hover{
 .info{
  display: flex;
  justify-content: space-between;
- text-align: justify;
  font-size: small;
 }
 .info>*{
  width:300px;
  font-weight: bold;
+  min-width: 200px;
 }
 
 .workingExperience>*{
@@ -108,3 +108,13 @@ a:hover{
 footer{
  text-align: center;
 }
+
+  @media only screen and (max-width:730px) {
+.skills{
+ width:400px;
+}
+    body {
+     margin: 0;
+    }
+
+  }
